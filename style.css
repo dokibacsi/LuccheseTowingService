@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+*::selection{
+    background-color: white;
+    color:#7f00ad;
+}
+
+nav{
+    background-color: #0b0010;
+    display: grid;
+    text-align: center;
+    border-bottom: 2px solid #7f00ad;
+    transition: 1s;
+    width: 100%;
+}
+
+nav:hover{
+    border-bottom: 2px solid #a100db;
+    transition: 1s;
+}
+
+nav img{
+    cursor: pointer;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    text-align: center;
+    margin:auto;
+    width: 98%;
+}
+
+ul li{
+    list-style-type: none;
+    align-self: center;
+    width: 175px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    font-size: 16pt;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: Poiret One;
+    transition: 1s;
+}
+
+ul li:hover{
+    transition: 1s;
+    color: #f5d8ff;
+    border-top: 2px solid #7f00ad;
+    border-bottom: 2px solid #5f0082;
+}
+
+ul img{
+    width: 156px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+#welcome{
+    height: calc(100vh - 124.75px);
+    width: 100%;
+}
+
+#welcome h1{
+    text-align: center;
+    padding: 250px;
+    font-size: 36pt;
+    color:#f5d8ff;
+    font-family: Staatliches;
+}
+
+#welcome #serviceName{
+    color: #8b48aa;
+}
+
+#about-us{
+    background-color:#0b0010;
+    border-top:2px solid #7f00ad;
+    border-bottom:2px solid #7f00ad;
+    transition: 1s;
+}
+
+#about-us:hover{
+    border-top:2px solid #a100db;
+    border-bottom:2px solid #a100db;
+    transition: 1s;
+}
+
+#about-us h1{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    border-bottom: 2px solid #7f00ad;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 36pt;
+    font-family: Ga Maamli;
+}
+
+#about-us p{
+    font-family: Merienda;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #0b0010;
+    border-top:2px solid #7f00ad;
+    transition: 1s;
+    font-family: Merienda;
+}
+
+footer:hover{
+    border-top:2px solid #a100db;
+    transition: 1s;
+}
+
+footer p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    max-width: 200px;
+    text-align: center;
+}
+
+.separator{
+    background-image: url(./images/Public/Main/Separator/purple_separator.png);
+    height: 100px;
+}
+
+.separator p{
+    font-size: 26pt;
+    color:#f5d8ff;
+    font-family: Staatliches;
+    padding-top: 27px;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #0b0010;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #1c0029;
+  }
